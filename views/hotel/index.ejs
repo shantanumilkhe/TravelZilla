@@ -1,0 +1,38 @@
+<% layout('layouts/boilerplate')%>
+
+<h1>Hotels</h1>
+
+<% for (let hotel of hotels){%>
+    <div class="container-fluid px-4 py-5 mx-auto">
+            <div class="card border-0">
+                <div class="row set-p justify-content-center">
+                    <span class="fa fa-angle-left" id="left"></span>
+                    <span class="fa fa-angle-right" id="right"></span>
+                    <div class="col-12">
+                        <div class="row px-3 mt-4 mb-3">
+                            <p class="rating mb-0 px-2 mr-3"><strong><%= hotel.rating %> stars</strong></p>
+                            <p class="text-primary mb-0 mr-2 grade"><strong><%= hotel.price_level %> category</strong></p>
+                            <p class="text-secondary mb-0"><%= hotel.num_reviews %> reviews</p>
+                        </div>
+                        <div class="row px-3">
+                            <h3 class="font-weight-bold"><%= hotel.name %></h3>
+                        </div>
+
+                        <div class="row px-3">
+                            <h5 class="mb-1">1 bedroom &middot; 1 living &middot; 2 beds</h5>
+                        </div>
+                        <div class="row px-3">
+                            <p class="mb-4"><%= hotel.location_string %></p>
+                        </div>
+                        <div class="line"></div>
+
+                        <div class="row px-3 mb-4">
+                            <h2 class="text-success mb-1 font-weight-bold"><%= hotel.price %></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+<% }%>
+
+<script src="/javascripts/clusters.js"></script>

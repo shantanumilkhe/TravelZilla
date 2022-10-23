@@ -20,6 +20,7 @@ const MongoDBStore = require('connect-mongo');
 const campgrounds = require('./routes/campgrounds');
 const reviews = require('./routes/reviews');
 const users = require('./routes/users');
+const hotel = require('./routes/hotel');
 
 
 urlLocal='mongodb://localhost:27017/camping'
@@ -97,6 +98,7 @@ app.use((req, res, next) => {
 app.use('/campgrounds', campgrounds)
 app.use('/campgrounds/:id/reviews', reviews)
 app.use('/', users)
+app.use('/hotel',hotel)
 
 app.get('/', (req, res) => {
     res.render('home')
