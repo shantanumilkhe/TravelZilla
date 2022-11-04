@@ -7,5 +7,8 @@ const hotel = require('../controllers/hotel')
 router.route('/')
     .get(catchAsync(hotel.index))
 
+router.get('/booking', catchAsync( async (req, res, next) =>{
+    res.render('campgrounds/booking');
+}))
 
 module.exports = router;
