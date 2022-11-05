@@ -1,10 +1,17 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+<link rel="stylesheet" href="/stylesheets/search.css">
+<style>
+  .navbar-custom{
+    background-color: #2E0249;
+  }
+</style>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-custom" >
     <div class="container-fluid">
       <a class="navbar-brand" href="#">TravelZilla</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class=" navbar-collapse collapse navbar-expand" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/">Home</a>
@@ -17,8 +24,27 @@
           </li>
         </ul>
         <div class = "navbar-nav ml-auto">
+          <form action="/home/search" method="get" class="search">
+            <input class="search__input" type="search" placeholder="Search" id="searchInput" name="q">
+
+            <div class="search__icon-container">
+                <label for="searchInput" class="search__label" aria-label="Search">
+                    <svg viewBox="0 0 1000 1000" title="Search">
+                        <path fill="currentColor"
+                            d="M408 745a337 337 0 1 0 0-674 337 337 0 0 0 0 674zm239-19a396 396 0 0 1-239 80 398 398 0 1 1 319-159l247 248a56 56 0 0 1 0 79 56 56 0 0 1-79 0L647 726z" />
+                    </svg>
+                </label>
+
+                <button class="search__submit" aria-label="Search">
+                    <svg viewBox="0 0 1000 1000" title="Search">
+                        <path fill="currentColor"
+                            d="M408 745a337 337 0 1 0 0-674 337 337 0 0 0 0 674zm239-19a396 396 0 0 1-239 80 398 398 0 1 1 319-159l247 248a56 56 0 0 1 0 79 56 56 0 0 1-79 0L647 726z" />
+                    </svg>
+                </button>
+            </div>
+        </form>
           <% if(!currentUser) {%> 
-          <a href="/login"><button class="btn btn-outline-success my-2 my-sm-0 mr-2 " type="button">login</button></a>
+          <a href="/login"><button class="btn btn-outline-success my-2 my-sm-0 mr-3 " type="button">login</button></a>
           <a href="/register"><button class="btn btn-outline-primary my-2 my-sm-0 mr-2 " type="button">register</button></a>
           <% } else{%> 
           <a href="/logout"><button class="btn btn-outline-success my-2 my-sm-0 mr-2" type="button">logout</button></a>

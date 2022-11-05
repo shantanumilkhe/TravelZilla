@@ -44,7 +44,7 @@
         right: 0;
         bottom: 0;
         top: 0;
-        background: rgb(0, 0, 0);
+        background: #2a0043;
         z-index: -1;
     }
 
@@ -204,21 +204,21 @@
                     <div class="form-header">
                         <h1>Make your reservation</h1>
                     </div>
-                    <form>
+                    <form action="/hotel/postBooking" method="post">
                         <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Your Name">
+                            <input class="form-control" type="text" placeholder="Your Name" name="book[name]">
                             <span class="form-label">Name</span>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" type="date" required>
+                                    <input class="form-control" type="date" required name="book[checkin]">
                                     <span class="form-label">Check In</span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" type="date" required>
+                                    <input class="form-control" type="date" required name="book[checkout]">
                                     <span class="form-label">Check out</span>
                                 </div>
                             </div>
@@ -232,13 +232,13 @@
                             </div> -->
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="Enter Total People">
+                                    <input class="form-control" type="number" placeholder="Enter Total People" name="book[People]">
                                     <span class="form-label">People</span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" type="tel" placeholder="Enter your address">
+                                    <input class="form-control" type="text" placeholder="Enter your address" name="book[address]">
                                     <span class="form-label">Address</span>
                                 </div>
                             </div>
@@ -246,13 +246,13 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="Enter your Email">
+                                    <input class="form-control" type="email" placeholder="Enter your Email" name="book[email]">
                                     <span class="form-label">Email</span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" type="tel" placeholder="Enter you Phone">
+                                    <input class="form-control" type="tel" placeholder="Enter you Phone" name="book[mobile]">
                                     <span class="form-label">Phone</span>
                                 </div>
                             </div>

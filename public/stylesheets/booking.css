@@ -1,10 +1,7 @@
-body {
-    background-color: white;
-}
-
+         
 .section {
     position: relative;
-    height: 100vh;
+    height: 75vh;
 }
 
 .section .section-center {
@@ -27,9 +24,9 @@ body {
     margin: auto;
     padding: 40px;
     overflow: hidden;
-    background-image: url('https://i.imgur.com/8z1tx3u.jpg');
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 20px;
     z-index: 20;
 }
 
@@ -40,7 +37,7 @@ body {
     right: 0;
     bottom: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: #2a0043;
     z-index: -1;
 }
 
@@ -186,17 +183,4 @@ body {
 .booking-form .submit-btn:hover,
 .booking-form .submit-btn:focus {
     opacity: 0.9;
-}
-
-             
-.white-mode {
-    text-decoration: none;
-    padding: 17px 40px;
-    background-color: yellow;
-    border-radius: 3px;
-    color: black;
-    transition: .35s ease-in-out;
-    position: absolute;
-    left: 15px;
-    bottom: 15px
 }
