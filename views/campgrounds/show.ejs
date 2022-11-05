@@ -47,7 +47,7 @@
                     <li class="list-group-item">₹<%= campground.price%>/night</li>
                 </ul>
         
-                  <a href="/hotel/booking/<%=campground._id%>"> <button class="btn btn-danger btn-block" style="background-color: #2E0249; outline-color: #0b0011;" >Book BnB</button></a> 
+                  <!-- <a href="/hotel/booking/<%=campground._id%>"> <button class="btn btn-danger btn-block" style="background-color: #2E0249; outline-color: #0b0011;" >Book BnB</button></a>  -->
                 
                 <% if (currentUser && campground.author.equals(currentUser._id) ){ %>
                     <div class="card-body">
@@ -75,7 +75,7 @@
                                         <div class="form-header">
                                             <h1>Check Availiability </h1>
                                         </div>
-                                        <form action="/hotel/postBooking" method="post">
+                                        <form action="/hotel/checkBooking/<%=campground._id%>" method="POST">
                                             <div class="form-group">
                                                 <input class="form-control" type="text" placeholder="Your Name" name="book[name]">
                                                 <span class="form-label">Name</span>
