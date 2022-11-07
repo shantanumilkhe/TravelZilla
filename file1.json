@@ -1,25 +1,1009 @@
 {
   "status": true,
   "message": "Success",
-  "timestamp": 1667713943043,
+  "timestamp": 1667821756926,
   "data": {
     "sortDisclaimer": "2,000 of 2,000+ places are available, sorted by <span class=\"underline\">best value</span>",
     "data": [
       {
-        "id": "299124",
-        "title": "1. The Lalit Mumbai",
-        "primaryInfo": null,
-        "secondaryInfo": "Marol",
-        "badge": {},
+        "id": "479536",
+        "title": "1. The Resort",
+        "primaryInfo": "Free breakfast included",
+        "secondaryInfo": "Madh",
+        "badge": {
+          "size": "SMALL",
+          "type": "TRAVELLER_CHOICE",
+          "year": "2022"
+        },
         "bubbleRating": {
-          "count": "5,721",
+          "count": "1,678",
+          "rating": 4
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹6,159",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 936,
+              "maxWidth": 1404,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/3d/42/2d/the-resort.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 934,
+              "maxWidth": 1402,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/3d/42/44/the-resort.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1333,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/c2/c2/7c/the-resort.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1333,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/c2/c1/c9/the-resort.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "12400208",
+        "title": "2. Ginger Mumbai Andheri East",
+        "primaryInfo": "Free breakfast included",
+        "secondaryInfo": "Andheri East",
+        "badge": {
+          "size": "SMALL",
+          "type": "TRAVELLER_CHOICE",
+          "year": "2022"
+        },
+        "bubbleRating": {
+          "count": "554",
           "rating": 4.5
         },
         "isSponsored": false,
-        "accentedLabel": "22% LESS THAN USUAL",
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹6,299",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1011,
+              "maxWidth": 1440,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c2/c6/a8/ok.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1333,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/a3/0d/c9/reception.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1333,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/a3/0e/22/meeting-room.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1333,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/a3/0d/f7/fitness-center.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "308380",
+        "title": "3. Hotel Accord",
+        "primaryInfo": "Free breakfast included",
+        "secondaryInfo": "Santacruz East",
+        "badge": {},
+        "bubbleRating": {
+          "count": "288",
+          "rating": 4
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹4,637",
+        "strikethroughPrice": null,
+        "priceDetails": "Free cancellation • Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 2160,
+              "maxWidth": 3840,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/dc/1a/e3/this-is-one-the-eco-rooms.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 2250,
+              "maxWidth": 3000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/50/a4/f6/eco-executive-deluxe.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 2250,
+              "maxWidth": 3000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/50/a4/f1/eco-executive-deluxe.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 367,
+              "maxWidth": 550,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/6b/78/d9/deluxe-room-interior.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2027720",
+        "title": "4. Meluha The Fern Mumbai",
+        "primaryInfo": "Free breakfast included",
+        "secondaryInfo": "Western Suburbs",
+        "badge": {
+          "size": "SMALL",
+          "type": "TRAVELLER_CHOICE",
+          "year": "2022"
+        },
+        "bubbleRating": {
+          "count": "1,170",
+          "rating": 4.5
+        },
+        "isSponsored": false,
+        "accentedLabel": "12% LESS THAN USUAL",
         "provider": "Agoda.com",
-        "priceForDisplay": "₹13,977",
-        "strikethroughPrice": "₹20,295",
+        "priceForDisplay": "₹14,437",
+        "strikethroughPrice": "₹15,309",
+        "priceDetails": null,
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 671,
+              "maxWidth": 1008,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/23/1b/88/vertical-garden-pool.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 813,
+              "maxWidth": 1008,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/23/1b/8a/exterior.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 680,
+              "maxWidth": 1021,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/d7/ab/ef/magnolia-fine-dining.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 643,
+              "maxWidth": 932,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/d7/ab/e3/reception.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "20329096",
+        "title": "5. Hotel Cliffton",
+        "primaryInfo": "Free breakfast included",
+        "secondaryInfo": "Western Suburbs",
+        "badge": {},
+        "bubbleRating": {
+          "count": "15",
+          "rating": 4.5
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹5,568",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1280,
+              "maxWidth": 1280,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6b/0e/05/hotel-cliffton.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 500,
+              "maxWidth": 750,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6b/10/19/hotel-cliffton.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 500,
+              "maxWidth": 750,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6b/0f/d9/coffee-maker.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 500,
+              "maxWidth": 750,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6b/0f/22/safe-locker.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "23498547",
+        "title": "The Byke Delotel, Borivali",
+        "primaryInfo": "Free breakfast included",
+        "secondaryInfo": "Western Suburbs",
+        "badge": {},
+        "bubbleRating": {
+          "count": "72",
+          "rating": 5
+        },
+        "isSponsored": true,
+        "accentedLabel": false,
+        "provider": "Agoda",
+        "priceForDisplay": "₹3,427",
+        "strikethroughPrice": null,
+        "priceDetails": null,
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1069,
+              "maxWidth": 1133,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/75/44/b5/boutique-hotel.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 934,
+              "maxWidth": 1278,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/40/0d/33/the-byke-delotel.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1240,
+              "maxWidth": 877,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/40/0d/da/the-byke-delotel.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 577,
+              "maxWidth": 325,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/40/0d/5d/the-byke-delotel.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "24140474",
+        "title": "6. Fairfield by Marriott Mumbai International Airport",
+        "primaryInfo": null,
+        "secondaryInfo": null,
+        "badge": {},
+        "bubbleRating": {
+          "count": "94",
+          "rating": 4.5
+        },
+        "isSponsored": false,
+        "accentedLabel": "23% LESS THAN USUAL",
+        "provider": "Booking.com",
+        "priceForDisplay": "₹11,799",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 2670,
+              "maxWidth": 4005,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/20/39/ae/hotel.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 2667,
+              "maxWidth": 4000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/b3/56/be/market.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 2667,
+              "maxWidth": 4000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/6c/8e/54/jade-pre-function.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 2667,
+              "maxWidth": 4000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/6c/8e/4c/azure-theatre.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1950139",
+        "title": "7. Ibis Mumbai Airport Hotel",
+        "primaryInfo": null,
+        "secondaryInfo": "Vile Parle East",
+        "badge": {
+          "size": "SMALL",
+          "type": "TRAVELLER_CHOICE",
+          "year": "2022"
+        },
+        "bubbleRating": {
+          "count": "2,047",
+          "rating": 4
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹10,029",
+        "strikethroughPrice": null,
+        "priceDetails": "Free cancellation • Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 768,
+              "maxWidth": 1024,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/ff/79/c1/exterior-view.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1333,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/bd/34/86/the-hub-bar.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1500,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e0/19/2e/ibis-mumbai-airport.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1333,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/bd/35/01/hotel-lobby.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "304604",
+        "title": "8. Taj Lands End, Mumbai",
+        "primaryInfo": "Free breakfast included",
+        "secondaryInfo": "Bandra West",
+        "badge": {
+          "size": "SMALL",
+          "type": "TRAVELLER_CHOICE",
+          "year": "2022"
+        },
+        "bubbleRating": {
+          "count": "6,021",
+          "rating": 4.5
+        },
+        "isSponsored": false,
+        "accentedLabel": "13% LESS THAN USUAL",
+        "provider": "Booking.com",
+        "priceForDisplay": "₹20,650",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 2550,
+              "maxWidth": 7197,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4e/9a/d4/exterior.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 2544,
+              "maxWidth": 4000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/64/24/c0/luxury-sea-view-room.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1666,
+              "maxWidth": 2500,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/64/12/ff/house-of-nomad.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1333,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/64/12/a0/atrium-bar-lounge.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "304632",
+        "title": "9. President Mumbai IHCL SeleQtions",
+        "primaryInfo": null,
+        "secondaryInfo": "South Mumbai",
+        "badge": {
+          "size": "SMALL",
+          "type": "TRAVELLER_CHOICE",
+          "year": "2022"
+        },
+        "bubbleRating": {
+          "count": "3,685",
+          "rating": 4.5
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹12,685",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 3783,
+              "maxWidth": 6000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/75/e0/95/lobby.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 900,
+              "maxWidth": 1545,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/c6/a7/4f/outdoor-swimming-pool.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 900,
+              "maxWidth": 1350,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/c6/a4/03/pet-friendly-premium.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 900,
+              "maxWidth": 1449,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/c6/a3/3e/premium-sea-view-room.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "307105",
+        "title": "10. The Orchid Mumbai Vile Parle",
+        "primaryInfo": "Free breakfast included",
+        "secondaryInfo": "Vile Parle East",
+        "badge": {},
+        "bubbleRating": {
+          "count": "4,362",
+          "rating": 4
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹16,519",
+        "strikethroughPrice": "₹20,988",
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1350,
+              "maxWidth": 3000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/bd/c5/0b/lobby.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 4291,
+              "maxWidth": 6436,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d5/48/93/the-orchid-mumbai-vile.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 3930,
+              "maxWidth": 5060,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d5/4b/3c/the-orchid-mumbai-vile.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 2592,
+              "maxWidth": 4608,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d5/4d/e1/the-orchid-mumbai-vile.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "302176",
+        "title": "11. The Leela Mumbai",
+        "primaryInfo": null,
+        "secondaryInfo": "Western Suburbs",
+        "badge": {},
+        "bubbleRating": {
+          "count": "5,143",
+          "rating": 4.5
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Agoda.com",
+        "priceForDisplay": "₹23,600",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 581,
+              "maxWidth": 1023,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/e4/dc/91/exterior-panorama-view.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 979,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8f/cb/7c/jamavar-signature-indian.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1333,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8f/ce/dc/the-lobby-lounge.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1500,
+              "maxWidth": 1911,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8f/ce/fb/the-lobby-lounge.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "678272",
+        "title": "12. Sahara Star Hotel",
+        "primaryInfo": null,
+        "secondaryInfo": "Vile Parle East",
+        "badge": {},
+        "bubbleRating": {
+          "count": "5,385",
+          "rating": 4.5
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹21,771",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 481,
+              "maxWidth": 800,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/85/f5/af/lobby.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 768,
+              "maxWidth": 1024,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/a9/7a/c9/aerial-view.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 519,
+              "maxWidth": 1024,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b3/f8/2b/sahara-star-hotel.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 683,
+              "maxWidth": 1024,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b3/f8/0f/sahara-star-hotel.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "301899",
+        "title": "13. Hilton Mumbai International Airport",
+        "primaryInfo": "Free breakfast included",
+        "secondaryInfo": "Western Suburbs",
+        "badge": {},
+        "bubbleRating": {
+          "count": "3,233",
+          "rating": 4.5
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Hilton",
+        "priceForDisplay": "₹21,948",
+        "strikethroughPrice": "₹73,800",
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 680,
+              "maxWidth": 1024,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/68/87/8d/meeting-room.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 946,
+              "maxWidth": 1425,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/e3/90/28/crystal-lounge.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1328,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/a0/a0/ed/hilton-mumbai-international.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1328,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/a0/a0/52/hilton-mumbai-international.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1858870",
+        "title": "14. Lalco Residency",
+        "primaryInfo": null,
+        "secondaryInfo": "Western Suburbs",
+        "badge": {},
+        "bubbleRating": {
+          "count": "192",
+          "rating": 4
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹7,031",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1733,
+              "maxWidth": 2600,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/0b/49/38/two-and-a-half-apartment--v171735.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1500,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/88/1e/e1/lalco-residency.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1500,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/1f/9b/83/lalco-residency.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1500,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/1f/9b/64/lalco-residency.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "302179",
+        "title": "15. The Taj Mahal Palace",
+        "primaryInfo": null,
+        "secondaryInfo": "Wellington Pier",
+        "badge": {
+          "size": "SMALL",
+          "type": "TRAVELLER_CHOICE",
+          "year": "2022"
+        },
+        "bubbleRating": {
+          "count": "9,287",
+          "rating": 4.5
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹29,500",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 5792,
+              "maxWidth": 8688,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/3f/1d/7a/exterior.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 800,
+              "maxWidth": 1067,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/e9/b9/68/the-taj-mahal-palace.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 708,
+              "maxWidth": 1064,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/e9/b9/6e/the-taj-mahal-palace.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 3100,
+              "maxWidth": 5700,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/3f/1f/15/guest-room.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8430779",
+        "title": "16. Niranta Airport Transit Hotel & Lounge",
+        "primaryInfo": null,
+        "secondaryInfo": "Vile Parle East",
+        "badge": {
+          "size": "SMALL",
+          "type": "TRAVELLER_CHOICE",
+          "year": "2022"
+        },
+        "bubbleRating": {
+          "count": "1,116",
+          "rating": 4
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹28,037",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 3287,
+              "maxWidth": 4935,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ae/94/32/niranta-airport-transit.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 382,
+              "maxWidth": 800,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/90/06/37/niranta-airport-transit.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 3280,
+              "maxWidth": 4921,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ae/a4/45/niranta-airport-transit.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 3287,
+              "maxWidth": 4935,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ae/96/04/niranta-airport-transit.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "17520305",
+        "title": "17. Hotel Apex International",
+        "primaryInfo": null,
+        "secondaryInfo": "Western Suburbs",
+        "badge": {},
+        "bubbleRating": {
+          "count": "9",
+          "rating": 4.5
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Agoda.com",
+        "priceForDisplay": "₹1,620",
+        "strikethroughPrice": null,
         "priceDetails": null,
         "priceSummary": null,
         "cardPhotos": [
@@ -28,42 +1012,98 @@
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
               "maxHeight": 731,
+              "maxWidth": 1080,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/a3/65/a9/hotel-apex-international.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 4454,
+              "maxWidth": 6253,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/a3/2b/b3/deluxe-room.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 727,
+              "maxWidth": 1080,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/a3/62/68/hotel-apex-international.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 720,
+              "maxWidth": 1080,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/a3/3d/a4/reception.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2048980",
+        "title": "18. Sofitel Mumbai BKC",
+        "primaryInfo": null,
+        "secondaryInfo": "Bandra Kurla Complex",
+        "badge": {},
+        "bubbleRating": {
+          "count": "7,662",
+          "rating": 5
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Booking.com",
+        "priceForDisplay": "₹29,500",
+        "strikethroughPrice": null,
+        "priceDetails": "Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 768,
               "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/10/99/d0/swimming-pool.jpg?w={width}&h={height}&s=1"
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/c8/13/62/exterior-view.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 736,
-              "maxWidth": 1301,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/b3/96/b5/the-lalit-mumbai.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 502,
+              "maxWidth": 1032,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/cd/78/b9/sofitel-mumbai-bkc.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1451,
-              "maxWidth": 2400,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a6/fb/db/the-lalit-mumbai.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 768,
+              "maxWidth": 1024,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/c8/13/cd/spa.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1467,
-              "maxWidth": 2400,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a6/fb/93/the-lalit-mumbai.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 3024,
+              "maxWidth": 4032,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/1e/3f/c0/sofitel-mumbai-bkc.jpg?w={width}&h={height}&s=1"
             }
           }
         ]
       },
       {
         "id": "17630941",
-        "title": "2. Lemon Tree Premier, Mumbai International Airport",
+        "title": "19. Lemon Tree Premier, Mumbai International Airport",
         "primaryInfo": null,
         "secondaryInfo": "Marol",
         "badge": {
@@ -78,7 +1118,7 @@
         "isSponsored": false,
         "accentedLabel": false,
         "provider": "Booking.com",
-        "priceForDisplay": "₹20,011",
+        "priceForDisplay": "₹27,074",
         "strikethroughPrice": null,
         "priceDetails": "Reserve now, pay at stay",
         "priceSummary": null,
@@ -122,68 +1162,8 @@
         ]
       },
       {
-        "id": "1135676",
-        "title": "3. Mirage Hotel",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Marol",
-        "badge": {
-          "size": "SMALL",
-          "type": "TRAVELLER_CHOICE",
-          "year": "2022"
-        },
-        "bubbleRating": {
-          "count": "674",
-          "rating": 4
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "goibibo.com",
-        "priceForDisplay": "₹13,886",
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1100,
-              "maxWidth": 1200,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/c6/3f/33/facade.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1733,
-              "maxWidth": 2600,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ca/93/59/front-desk--v14839934.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1733,
-              "maxWidth": 2600,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ca/93/1f/zebra-lounge--v14840320.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1733,
-              "maxWidth": 2600,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ca/93/54/lobby--v14840117.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
         "id": "672189",
-        "title": "4. Four Seasons Hotel Mumbai",
+        "title": "20. Four Seasons Hotel Mumbai",
         "primaryInfo": null,
         "secondaryInfo": "South Mumbai",
         "badge": {
@@ -197,8 +1177,8 @@
         },
         "isSponsored": false,
         "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": "₹28,320",
+        "provider": "Agoda.com",
+        "priceForDisplay": "₹25,960",
         "strikethroughPrice": null,
         "priceDetails": "Reserve now, pay at stay",
         "priceSummary": null,
@@ -242,19 +1222,75 @@
         ]
       },
       {
-        "id": "308380",
-        "title": "5. Hotel Accord",
+        "id": "428572",
+        "title": "21. Hotel Bawa International",
         "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Santacruz East",
+        "secondaryInfo": "Vile Parle East",
         "badge": {},
         "bubbleRating": {
-          "count": "288",
-          "rating": 4
+          "count": "823",
+          "rating": 3.5
         },
         "isSponsored": false,
         "accentedLabel": false,
         "provider": "Booking.com",
-        "priceForDisplay": null,
+        "priceForDisplay": "₹10,620",
+        "strikethroughPrice": null,
+        "priceDetails": "Free cancellation • Reserve now, pay at stay",
+        "priceSummary": null,
+        "cardPhotos": [
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 667,
+              "maxWidth": 1024,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c2/c7/60/deluxe-room-smoking-1.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 400,
+              "maxWidth": 600,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/35/c5/7d/hotel-bawa-international.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 400,
+              "maxWidth": 600,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/35/c5/8d/hotel-bawa-international.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 400,
+              "maxWidth": 600,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/35/c5/78/hotel-bawa-international.jpg?w={width}&h={height}&s=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "299124",
+        "title": "22. The Lalit Mumbai",
+        "primaryInfo": null,
+        "secondaryInfo": "Marol",
+        "badge": {},
+        "bubbleRating": {
+          "count": "5,721",
+          "rating": 4.5
+        },
+        "isSponsored": false,
+        "accentedLabel": false,
+        "provider": "Agoda.com",
+        "priceForDisplay": "₹93,704",
         "strikethroughPrice": null,
         "priceDetails": null,
         "priceSummary": null,
@@ -263,43 +1299,43 @@
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2160,
-              "maxWidth": 3840,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/dc/1a/e3/this-is-one-the-eco-rooms.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 731,
+              "maxWidth": 1024,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/10/99/d0/swimming-pool.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2250,
-              "maxWidth": 3000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/50/a4/f6/eco-executive-deluxe.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 736,
+              "maxWidth": 1301,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/b3/96/b5/the-lalit-mumbai.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2250,
-              "maxWidth": 3000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/50/a4/f1/eco-executive-deluxe.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 1451,
+              "maxWidth": 2400,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a6/fb/db/the-lalit-mumbai.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 367,
-              "maxWidth": 550,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/6b/78/d9/deluxe-room-interior.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 1467,
+              "maxWidth": 2400,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a6/fb/93/the-lalit-mumbai.jpg?w={width}&h={height}&s=1"
             }
           }
         ]
       },
       {
         "id": "4107195",
-        "title": "6. Residency Sarovar Portico",
+        "title": "23. Residency Sarovar Portico",
         "primaryInfo": "Free breakfast included",
         "secondaryInfo": "Western Suburbs",
         "badge": {
@@ -358,184 +1394,8 @@
         ]
       },
       {
-        "id": "655104",
-        "title": "7. The Royal Orchid",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Eastern Suburbs",
-        "badge": {},
-        "bubbleRating": {
-          "count": "110",
-          "rating": 4
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1125,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/c0/40/0c/the-royal-orchid.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1500,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e4/ae/36/beautiful-view-of-restaurant.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1125,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/c0/40/22/the-royal-orchid.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 375,
-              "maxWidth": 500,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/7f/64/90/the-royal-orchid.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "2027720",
-        "title": "8. Meluha The Fern Mumbai",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Western Suburbs",
-        "badge": {
-          "size": "SMALL",
-          "type": "TRAVELLER_CHOICE",
-          "year": "2022"
-        },
-        "bubbleRating": {
-          "count": "1,170",
-          "rating": 4.5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 671,
-              "maxWidth": 1008,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/23/1b/88/vertical-garden-pool.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 813,
-              "maxWidth": 1008,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/23/1b/8a/exterior.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 680,
-              "maxWidth": 1021,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/d7/ab/ef/magnolia-fine-dining.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 643,
-              "maxWidth": 932,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/d7/ab/e3/reception.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3357788",
-        "title": "9. Ginger Mumbai, Andheri (MIDC)",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Western Suburbs",
-        "badge": {
-          "size": "SMALL",
-          "type": "TRAVELLER_CHOICE",
-          "year": "2022"
-        },
-        "bubbleRating": {
-          "count": "514",
-          "rating": 4
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 536,
-              "maxWidth": 804,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/39/75/35/facde.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 536,
-              "maxWidth": 804,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/39/75/36/twin-room.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2048,
-              "maxWidth": 2047,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a8/40/ee/facade.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 298,
-              "maxWidth": 395,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/81/f9/41/exterior.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
         "id": "1391624",
-        "title": "10. Novotel Mumbai Juhu Beach",
+        "title": "24. Novotel Mumbai Juhu Beach",
         "primaryInfo": null,
         "secondaryInfo": "Juhu",
         "badge": {
@@ -544,7 +1404,7 @@
           "year": "2022"
         },
         "bubbleRating": {
-          "count": "3,344",
+          "count": "3,349",
           "rating": 4
         },
         "isSponsored": false,
@@ -595,7 +1455,7 @@
       },
       {
         "id": "13005940",
-        "title": "11. Taj Mahal Tower, Mumbai",
+        "title": "25. Taj Mahal Tower, Mumbai",
         "primaryInfo": null,
         "secondaryInfo": "Wellington Pier",
         "badge": {
@@ -604,7 +1464,7 @@
           "year": "2022"
         },
         "bubbleRating": {
-          "count": "1,407",
+          "count": "1,409",
           "rating": 4.5
         },
         "isSponsored": false,
@@ -654,124 +1514,8 @@
         ]
       },
       {
-        "id": "8430779",
-        "title": "12. Niranta Airport Transit Hotel & Lounge",
-        "primaryInfo": null,
-        "secondaryInfo": "Vile Parle East",
-        "badge": {
-          "size": "SMALL",
-          "type": "TRAVELLER_CHOICE",
-          "year": "2022"
-        },
-        "bubbleRating": {
-          "count": "1,115",
-          "rating": 4
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 3287,
-              "maxWidth": 4935,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ae/94/32/niranta-airport-transit.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 382,
-              "maxWidth": 800,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/90/06/37/niranta-airport-transit.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 3280,
-              "maxWidth": 4921,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ae/a4/45/niranta-airport-transit.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 3287,
-              "maxWidth": 4935,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ae/96/04/niranta-airport-transit.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "301899",
-        "title": "13. Hilton Mumbai International Airport",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Western Suburbs",
-        "badge": {},
-        "bubbleRating": {
-          "count": "3,233",
-          "rating": 4.5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 680,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/68/87/8d/meeting-room.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 946,
-              "maxWidth": 1425,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/e3/90/28/crystal-lounge.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1328,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/a0/a0/ed/hilton-mumbai-international.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1328,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/a0/a0/52/hilton-mumbai-international.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
         "id": "308381",
-        "title": "14. Hotel Marine Plaza",
+        "title": "26. Hotel Marine Plaza",
         "primaryInfo": "Free breakfast included",
         "secondaryInfo": "Marine Drive",
         "badge": {
@@ -830,237 +1574,13 @@
         ]
       },
       {
-        "id": "2048980",
-        "title": "15. Sofitel Mumbai BKC",
-        "primaryInfo": null,
-        "secondaryInfo": "Bandra Kurla Complex",
-        "badge": {},
-        "bubbleRating": {
-          "count": "7,659",
-          "rating": 5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 768,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/c8/13/62/exterior-view.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 502,
-              "maxWidth": 1032,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/cd/78/b9/sofitel-mumbai-bkc.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 768,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/c8/13/cd/spa.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 3024,
-              "maxWidth": 4032,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/1e/3f/c0/sofitel-mumbai-bkc.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "21362523",
-        "title": "Radisson Blu Mumbai International Airport",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Marol",
-        "badge": {},
-        "bubbleRating": {
-          "count": "1,026",
-          "rating": 5
-        },
-        "isSponsored": true,
-        "accentedLabel": false,
-        "provider": "FindHotel",
-        "priceForDisplay": "₹16,564",
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 683,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/dd/46/00/infinity-pool.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 683,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/9a/7a/c4/the-nest.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 683,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/9a/7a/b3/vip-lounge.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 683,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/9a/7a/be/track-fitness-center.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "307105",
-        "title": "16. The Orchid Mumbai Vile Parle",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Vile Parle East",
-        "badge": {},
-        "bubbleRating": {
-          "count": "4,353",
-          "rating": 4
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1350,
-              "maxWidth": 3000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/bd/c5/0b/lobby.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 4291,
-              "maxWidth": 6436,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d5/48/93/the-orchid-mumbai-vile.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 3930,
-              "maxWidth": 5060,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d5/4b/3c/the-orchid-mumbai-vile.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2592,
-              "maxWidth": 4608,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d5/4d/e1/the-orchid-mumbai-vile.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "678272",
-        "title": "17. Sahara Star Hotel",
-        "primaryInfo": null,
-        "secondaryInfo": "Vile Parle East",
-        "badge": {},
-        "bubbleRating": {
-          "count": "5,383",
-          "rating": 4.5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 481,
-              "maxWidth": 800,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/85/f5/af/lobby.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 768,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/a9/7a/c9/aerial-view.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 519,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b3/f8/2b/sahara-star-hotel.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 683,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b3/f8/0f/sahara-star-hotel.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
         "id": "472105",
-        "title": "18. Trident Hotel",
+        "title": "27. Trident Hotel",
         "primaryInfo": null,
         "secondaryInfo": "South Mumbai",
         "badge": {},
         "bubbleRating": {
-          "count": "5,977",
+          "count": "5,978",
           "rating": 4.5
         },
         "isSponsored": false,
@@ -1110,296 +1630,8 @@
         ]
       },
       {
-        "id": "302176",
-        "title": "19. The Leela Mumbai",
-        "primaryInfo": null,
-        "secondaryInfo": "Western Suburbs",
-        "badge": {},
-        "bubbleRating": {
-          "count": "5,142",
-          "rating": 4.5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 581,
-              "maxWidth": 1023,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/e4/dc/91/exterior-panorama-view.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 979,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8f/cb/7c/jamavar-signature-indian.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1333,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8f/ce/dc/the-lobby-lounge.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1500,
-              "maxWidth": 1911,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8f/ce/fb/the-lobby-lounge.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "20329096",
-        "title": "20. Hotel Cliffton",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Western Suburbs",
-        "badge": {},
-        "bubbleRating": {
-          "count": "15",
-          "rating": 4.5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1280,
-              "maxWidth": 1280,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6b/0e/05/hotel-cliffton.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 500,
-              "maxWidth": 750,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6b/10/19/hotel-cliffton.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 500,
-              "maxWidth": 750,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6b/0f/d9/coffee-maker.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 500,
-              "maxWidth": 750,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6b/0f/22/safe-locker.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "545901",
-        "title": "21. The Shalimar Hotel",
-        "primaryInfo": "All-inclusive",
-        "secondaryInfo": "South Mumbai",
-        "badge": {
-          "size": "SMALL",
-          "type": "TRAVELLER_CHOICE",
-          "year": "2022"
-        },
-        "bubbleRating": {
-          "count": "882",
-          "rating": 4.5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 700,
-              "maxWidth": 1050,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/3a/75/25/suite.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1500,
-              "maxWidth": 1082,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/cb/c4/bd/the-shalimar-hotel.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1333,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/12/42/e7/the-shalimar-hotel.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1333,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/12/43/38/the-shalimar-hotel.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "24140474",
-        "title": "22. Fairfield by Marriott Mumbai International Airport",
-        "primaryInfo": null,
-        "secondaryInfo": null,
-        "badge": {},
-        "bubbleRating": {
-          "count": "89",
-          "rating": 4.5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2670,
-              "maxWidth": 4005,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/20/39/ae/hotel.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2667,
-              "maxWidth": 4000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/b3/56/be/market.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2667,
-              "maxWidth": 4000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/6c/8e/54/jade-pre-function.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2667,
-              "maxWidth": 4000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/6c/8e/4c/azure-theatre.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "1950139",
-        "title": "23. Ibis Mumbai Airport Hotel",
-        "primaryInfo": null,
-        "secondaryInfo": "Vile Parle East",
-        "badge": {
-          "size": "SMALL",
-          "type": "TRAVELLER_CHOICE",
-          "year": "2022"
-        },
-        "bubbleRating": {
-          "count": "2,043",
-          "rating": 4
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 768,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/ff/79/c1/exterior-view.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1333,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/bd/34/86/the-hub-bar.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1500,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e0/19/2e/ibis-mumbai-airport.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1333,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/bd/35/01/hotel-lobby.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
         "id": "307114",
-        "title": "24. Sun-n-Sand Hotel, Mumbai",
+        "title": "28. Sun-n-Sand Hotel, Mumbai",
         "primaryInfo": "Free breakfast included",
         "secondaryInfo": "Juhu",
         "badge": {
@@ -1458,17 +1690,17 @@
         ]
       },
       {
-        "id": "304604",
-        "title": "25. Taj Lands End, Mumbai",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Bandra West",
+        "id": "545901",
+        "title": "29. The Shalimar Hotel",
+        "primaryInfo": "All-inclusive",
+        "secondaryInfo": "South Mumbai",
         "badge": {
           "size": "SMALL",
           "type": "TRAVELLER_CHOICE",
           "year": "2022"
         },
         "bubbleRating": {
-          "count": "6,021",
+          "count": "882",
           "rating": 4.5
         },
         "isSponsored": false,
@@ -1483,27 +1715,18 @@
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2550,
-              "maxWidth": 7197,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4e/9a/d4/exterior.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 700,
+              "maxWidth": 1050,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/3a/75/25/suite.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2544,
-              "maxWidth": 4000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/64/24/c0/luxury-sea-view-room.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1666,
-              "maxWidth": 2500,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/64/12/ff/house-of-nomad.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 1500,
+              "maxWidth": 1082,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/cb/c4/bd/the-shalimar-hotel.jpg?w={width}&h={height}&s=1"
             }
           },
           {
@@ -1512,79 +1735,28 @@
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
               "maxHeight": 1333,
               "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/64/12/a0/atrium-bar-lounge.jpg?w={width}&h={height}&s=1"
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/12/42/e7/the-shalimar-hotel.jpg?w={width}&h={height}&s=1"
+            }
+          },
+          {
+            "__typename": "AppPresentation_PhotoItem",
+            "sizes": {
+              "__typename": "AppPresentation_PhotoItemSizeDynamic",
+              "maxHeight": 1333,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/12/43/38/the-shalimar-hotel.jpg?w={width}&h={height}&s=1"
             }
           }
         ]
       },
       {
-        "id": "304632",
-        "title": "26. President Mumbai IHCL SeleQtions",
-        "primaryInfo": null,
-        "secondaryInfo": "South Mumbai",
-        "badge": {
-          "size": "SMALL",
-          "type": "TRAVELLER_CHOICE",
-          "year": "2022"
-        },
-        "bubbleRating": {
-          "count": "3,684",
-          "rating": 4.5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 3783,
-              "maxWidth": 6000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/75/e0/95/lobby.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 900,
-              "maxWidth": 1545,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/c6/a7/4f/outdoor-swimming-pool.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 900,
-              "maxWidth": 1350,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/c6/a4/03/pet-friendly-premium.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 900,
-              "maxWidth": 1449,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/c6/a3/3e/premium-sea-view-room.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "428572",
-        "title": "27. Hotel Bawa International",
+        "id": "308382",
+        "title": "30. Hotel Sea Princess",
         "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Vile Parle East",
+        "secondaryInfo": "Juhu",
         "badge": {},
         "bubbleRating": {
-          "count": "823",
+          "count": "1,190",
           "rating": 3.5
         },
         "isSponsored": false,
@@ -1599,226 +1771,58 @@
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 667,
-              "maxWidth": 1024,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c2/c7/60/deluxe-room-smoking-1.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 996,
+              "maxWidth": 1500,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/3a/0f/bb/hotel-sea-princess.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 400,
-              "maxWidth": 600,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/35/c5/7d/hotel-bawa-international.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 1500,
+              "maxWidth": 1200,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/3a/0f/a9/hotel-sea-princess.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 400,
-              "maxWidth": 600,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/35/c5/8d/hotel-bawa-international.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 739,
+              "maxWidth": 1200,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/3a/0f/76/hotel-sea-princess.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 400,
-              "maxWidth": 600,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/35/c5/78/hotel-bawa-international.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 1330,
+              "maxWidth": 2000,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/4c/e5/b8/hotel-sea-princess.jpg?w={width}&h={height}&s=1"
             }
           }
         ]
       },
       {
-        "id": "9776549",
-        "title": "28. Taj Santacruz",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Vile Parle East",
-        "badge": {},
-        "bubbleRating": {
-          "count": "2,516",
-          "rating": 4.5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 5304,
-              "maxWidth": 7952,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/45/35/a1/guest-room.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1250,
-              "maxWidth": 1529,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/37/4a/dc/outdoor-swimming-pool.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1250,
-              "maxWidth": 1801,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/37/4a/c6/junior-suite.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1250,
-              "maxWidth": 1800,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/8b/ff/86/luxury-tranquility-room.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "17520305",
-        "title": "29. Hotel Apex International",
+        "id": "1391624",
+        "title": "Novotel Mumbai Juhu Beach",
         "primaryInfo": null,
-        "secondaryInfo": "Western Suburbs",
-        "badge": {},
-        "bubbleRating": {
-          "count": "9",
-          "rating": 4.5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Agoda.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 731,
-              "maxWidth": 1080,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/a3/65/a9/hotel-apex-international.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 4454,
-              "maxWidth": 6253,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/a3/2b/b3/deluxe-room.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 727,
-              "maxWidth": 1080,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/a3/62/68/hotel-apex-international.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 720,
-              "maxWidth": 1080,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/a3/3d/a4/reception.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "1676301",
-        "title": "30. Courtyard by Marriott Mumbai International Airport",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Western Suburbs",
-        "badge": {},
-        "bubbleRating": {
-          "count": "3,565",
-          "rating": 4.5
-        },
-        "isSponsored": false,
-        "accentedLabel": false,
-        "provider": "Booking.com",
-        "priceForDisplay": null,
-        "strikethroughPrice": null,
-        "priceDetails": null,
-        "priceSummary": null,
-        "cardPhotos": [
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2667,
-              "maxWidth": 4000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/3b/3b/ad/outdoor-pool.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2667,
-              "maxWidth": 4000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/3b/3c/b5/pearl-meeting-room.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 2667,
-              "maxWidth": 4000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/3b/3c/af/pearl-meeting-room.jpg?w={width}&h={height}&s=1"
-            }
-          },
-          {
-            "__typename": "AppPresentation_PhotoItem",
-            "sizes": {
-              "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 4000,
-              "maxWidth": 2667,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/3b/3c/a9/amber-ballroom.jpg?w={width}&h={height}&s=1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "518427",
-        "title": "Comfort Inn Heritage",
-        "primaryInfo": "Free breakfast included",
-        "secondaryInfo": "Byculla",
+        "secondaryInfo": "Juhu",
         "badge": {
           "size": "SMALL",
           "type": "TRAVELLER_CHOICE",
           "year": "2022"
         },
         "bubbleRating": {
-          "count": "496",
+          "count": "3,349",
           "rating": 4
         },
         "isSponsored": true,
         "accentedLabel": false,
-        "provider": "FindHotel",
-        "priceForDisplay": "₹5,015",
+        "provider": "Agoda",
+        "priceForDisplay": "₹10,620",
         "strikethroughPrice": null,
         "priceDetails": null,
         "priceSummary": null,
@@ -1827,36 +1831,36 @@
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 682,
-              "maxWidth": 1023,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c5/b4/10/guest-room-with-added.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 768,
+              "maxWidth": 1024,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/d3/b2/4f/exterior-view.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1333,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/cd/e1/66/essence-restaurant.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 3024,
+              "maxWidth": 4032,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d8/45/f9/novotel-mumbai-juhu-beach.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1334,
-              "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/cd/e2/53/buffet.jpg?w={width}&h={height}&s=1"
+              "maxHeight": 1536,
+              "maxWidth": 2048,
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/37/00/e3/pool-area.jpg?w={width}&h={height}&s=1"
             }
           },
           {
             "__typename": "AppPresentation_PhotoItem",
             "sizes": {
               "__typename": "AppPresentation_PhotoItemSizeDynamic",
-              "maxHeight": 1333,
+              "maxHeight": 1125,
               "maxWidth": 2000,
-              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/cd/e2/47/buffet.jpg?w={width}&h={height}&s=1"
+              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/c7/f1/33/novotel-mumbai-juhu-beach.jpg?w={width}&h={height}&s=1"
             }
           }
         ]
