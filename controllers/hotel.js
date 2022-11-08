@@ -51,7 +51,10 @@ await fs.readFile('file1.json', 'utf8', function readFileCallback(err, data){
 if (err){
     console.log(err);
 } else {
-    hotelsv2 = JSON.parse(data); //now it an object
+
+    hotelsv2 = JSON.parse(data);
+    console.log(data)
+     //now it an object
     res.render('hotel/indexv2',{hotelsv2});
 }});
     // res.render('hotel/indexv2',{hotelsv2});

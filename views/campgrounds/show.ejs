@@ -83,13 +83,13 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input class="form-control" type="date" required name="book[checkin]">
+                                                        <input class="form-control" type="date" required name="book[checkin]" min="<%= today %>">
                                                         <span class="form-label">Check In</span>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input class="form-control" type="date" required name="book[checkout]">
+                                                        <input class="form-control" type="date" required name="book[checkout]" min="<%= today %>">
                                                         <span class="form-label">Check out</span>
                                                     </div>
                                                 </div>

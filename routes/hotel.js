@@ -50,13 +50,20 @@ router.post('/checkBooking/:id', catchAsync(async (req, res, next) => {
 }));
 
 router.get('/booking/:id', catchAsync(async (req, res, next) => {
-
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
+    today = yyyy+ '-' + mm + '-' +dd ;
     const id = req.params.id;
-    console.log(id)
-    res.render('campgrounds/booking', { id });
+    const bnb = Campground.findById(id);
+
+    res.render('campgrounds/booking', { id, today, bnb });
 }));
 
-
+router.get('/bookingConfirmation', catchAsync(async (req, res, next) => {
+    res.render('campgrounds/confirmation')
+}))
 
 router.post('/postBooking/:id', catchAsync(async (req, res, next) => {
     console.log(req.body.book);
