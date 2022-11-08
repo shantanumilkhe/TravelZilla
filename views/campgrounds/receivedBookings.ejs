@@ -1,10 +1,10 @@
 <% layout('layouts/boilerplate') %> 
 <h1>Your Bookings</h1>
 
-<% for (let bnb of bnbs){%>
+<% for (let bnb of hostings.Bookings){%>
 <div class="card mb-3" >
     <div class="row">
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
             <% if(bnb.bnbid.images.length) { %> 
             <img class="img-fluid" alt="" src="<%=bnb.bnbid.images[0].url%>" style=" height:300px">
             <% } else { %> 
@@ -18,12 +18,12 @@
                 <p class="card-text">
                     <small class="text-muted"><%= bnb.bnbid.location%></small>
                 </p>
-                <a class="btn btn-primary" href="/campgrounds/<%=bnb._id%>">View <%=bnb.bnbid.title%></a>
+                <a class="btn btn-primary" href="/campgrounds/<%=bnb.bnbid._id%>">View <%=bnb.bnbid.title%></a>
                 <form class="d-inline" action="/hotel/deleteBooking/<%=bnb._id%>?_method=DELETE" method="POST">
                     <button class="btn btn-Danger">Cancel Booking</button>
                 </form>
             </div>
-        </div>
+        </div> -->
         <div class="col-md-9">
             <div class="card-body">
                 <h5 class="card-title">Booking Name: <%= bnb.BookingName %> </h5>

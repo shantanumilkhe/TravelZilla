@@ -83,7 +83,7 @@ router.post('/postBooking/:id', catchAsync(async (req, res, next) => {
         userid, bnbid, BookingName, checkin, checkout, People,
         Address, Mobile
     })
-    console.log(booking)
+    
     const bnb = await Campground.findById(bnbid);
 
     const start = new Date(checkin);
@@ -103,7 +103,10 @@ router.post('/postBooking/:id', catchAsync(async (req, res, next) => {
     const price = bnb.price;
     let bill = totalDays*price
     booking.bill = bill
+
     booking.save();
+    bnb.Bookings.push(booking.id);
+
     bnb.save();
     const redirecturl = '/hotel/yourBookings'
     res.redirect(redirecturl);
@@ -118,23 +121,34 @@ router.get( '/yourBookings',isLoggedIN, catchAsync(async (req, res, next) => {
     res.render('campgrounds/yourBooking', {bnbs});
 }))
 
+router.get( '/receivedBookings/',isLoggedIN, catchAsync(async (req, res, next) => {
+
+    const userid = req.user._id;
+    const hostings = await Campground.find({author: userid}).populate('Bookings')
+    const booking = hostings.Bookings
+   console.log(hostings);
+const bnbs = [123]
+    res.render('campgrounds/receivedBookings', {hostings});
+}))
+
+
 router.delete('/deleteBooking/:id', catchAsync(async (req, res, next) => {
     const id = req.params.id;
     const books = await booking.findById(id);
     const bnbId = books.bnbid;
-   
-  
 
     const start = new Date(books.checkin);
     const end = new Date(books.checkout);
     const date = new Date(start.getTime());
     let dates = [];
+   
     while (date <= end) {
         dates.push(new Date(date).getTime());
         date.setDate(date.getDate() + 1);
     }
+   
     for(let daten in dates){
-        await Campground.findByIdAndUpdate(bnbId, {$pull:{unavailableDates: daten}})
+        await Campground.findByIdAndUpdate(bnbId, {$pull:{unavailableDates: parseInt(daten)}})
     }
 
     const book = await booking.findByIdAndDelete(id);
