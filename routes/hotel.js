@@ -7,6 +7,7 @@ const catchAsync = require("../Utility/catchAsync");
 const hotel = require('../controllers/hotel')
 const Campground = require('../models/campground');
 const Booking = require('../models/booking');
+const booking = require('../models/booking');
 
 router.route('/')
     .get(catchAsync(hotel.index))
@@ -81,30 +82,38 @@ router.post('/postBooking/:id', catchAsync(async (req, res, next) => {
         userid, bnbid, BookingName, checkin, checkout, People,
         Address, Mobile
     })
-    booking.save();
+    console.log(booking)
     const bnb = await Campground.findById(bnbid);
 
     const start = new Date(checkin);
     const end = new Date(checkout);
     const date = new Date(start.getTime());
     const dates = [];
-
+    let totalDays = 0
     while (date <= end) {
         dates.push(new Date(date).getTime());
         date.setDate(date.getDate() + 1);
+        totalDays += 1;
     }
 
     for (let i = 0; i < dates.length; i++) {
         bnb.unavailableDates.push(dates[i])
     }
+    const price = bnb.price;
+    let bill = totalDays*price
+    booking.bill = bill
+    booking.save();
     bnb.save();
-    const redirecturl = "/campgrounds/" + bnbid
+    const redirecturl = '/hotel/yourBookings'
     res.redirect(redirecturl);
 }))
 
 router.get('/yourBookings', catchAsync(async (req, res, next) => {
 
+    const userid = req.user._id;
+    const bnb = await booking.find({userid: userid}).populate('bnbid')
 
-    res.render('campgrounds/yourBooking');
+    const bnbs = bnb.reverse();
+    res.render('campgrounds/yourBooking', {bnbs});
 }))
 module.exports = router;

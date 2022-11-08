@@ -18,6 +18,7 @@ const bookingSchema = new Schema({
    People: Number,
    Address: String,
    Mobile: String,
+   bill: Number,
 });
 
 

@@ -53,7 +53,6 @@ if (err){
 } else {
 
     hotelsv2 = JSON.parse(data);
-    console.log(data)
      //now it an object
     res.render('hotel/indexv2',{hotelsv2});
 }});

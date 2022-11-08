@@ -1,24 +1,37 @@
 <% layout('layouts/boilerplate') %> 
-<h1>All BnBs</h1>
+<h1>Your Bookings</h1>
 
-<% for (let campground of campgrounds){%>
+<% for (let bnb of bnbs){%>
 <div class="card mb-3" >
     <div class="row">
         <div class="col-md-4">
-            <% if(campground.images.length) { %> 
-            <img class="img-fluid" alt="" src="<%=campground.images[0].url%>" style=" height:300px">
+            <% if(bnb.bnbid.images.length) { %> 
+            <img class="img-fluid" alt="" src="<%=bnb.bnbid.images[0].url%>" style=" height:300px">
             <% } else { %> 
                 <img class="img-fluid" alt="" src="https://res.cloudinary.com/dvfo4sxo2/image/upload/v1660416333/Yelpcamp/nfcmkzxuqnx5kp6e8wxg.jpg" style=" height: 300px">
                 <% } %> 
         </div>
         <div class="col-md-8">
             <div class="card-body">
-                <h5 class="card-title"><%= campground.title %> </h5>
-                <p class="card-text"><%= campground.description %></p>
+                <h5 class="card-title"><%= bnb.bnbid.title %> </h5>
+                <p class="card-text"><%= bnb.bnbid.description %></p>
                 <p class="card-text">
-                    <small class="text-muted"><%= campground.location%></small>
+                    <small class="text-muted"><%= bnb.bnbid.location%></small>
                 </p>
-                <a class="btn btn-primary" href="/campgrounds/<%=campground._id%>">View <%=campground.title%></a>
+                <a class="btn btn-primary" href="/campgrounds/<%=bnb.bnbid._id%>">View <%=bnb.bnbid.title%></a>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Booking Name: <%= bnb.BookingName %> </h5>
+                <p class="card-text">Total People Staying: <%= bnb.People %></p>
+                <!-- <p class="card-text">
+                    Checkin Date: <%= bnb.checkin%> :: CheckOut Date: <% bnb.checkout %> 
+                </p> -->
+                <p class="card-text">
+                   Total Amount paid: <%= bnb.bill %>  
+                </p>
+               
             </div>
         </div>
     </div>
