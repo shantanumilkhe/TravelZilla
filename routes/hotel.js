@@ -8,12 +8,13 @@ const hotel = require('../controllers/hotel')
 const Campground = require('../models/campground');
 const Booking = require('../models/booking');
 const booking = require('../models/booking');
+const { isLoggedIN, validatecampground, isAuthor } = require('../middleware')
 
 router.route('/')
     .get(catchAsync(hotel.index))
 
 router.route('/v2')
-    .get(catchAsync(hotel.indexv2));
+    .get(isLoggedIN, catchAsync(hotel.indexv2));
 
 router.post('/checkBooking/:id', catchAsync(async (req, res, next) => {
     console.log(req.body.book)
@@ -50,7 +51,7 @@ router.post('/checkBooking/:id', catchAsync(async (req, res, next) => {
 
 }));
 
-router.get('/booking/:id', catchAsync(async (req, res, next) => {
+router.get('/booking/:id', isLoggedIN,catchAsync(async (req, res, next) => {
     var today = new Date();
     var dd = String(today.getDate()).padStart(2, '0');
     var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
@@ -108,7 +109,7 @@ router.post('/postBooking/:id', catchAsync(async (req, res, next) => {
     res.redirect(redirecturl);
 }))
 
-router.get('/yourBookings', catchAsync(async (req, res, next) => {
+router.get( '/yourBookings',isLoggedIN, catchAsync(async (req, res, next) => {
 
     const userid = req.user._id;
     const bnb = await booking.find({userid: userid}).populate('bnbid')
@@ -116,4 +117,29 @@ router.get('/yourBookings', catchAsync(async (req, res, next) => {
     const bnbs = bnb.reverse();
     res.render('campgrounds/yourBooking', {bnbs});
 }))
+
+router.delete('/deleteBooking/:id', catchAsync(async (req, res, next) => {
+    const id = req.params.id;
+    const books = await booking.findById(id);
+    const bnbId = books.bnbid;
+   
+  
+
+    const start = new Date(books.checkin);
+    const end = new Date(books.checkout);
+    const date = new Date(start.getTime());
+    let dates = [];
+    while (date <= end) {
+        dates.push(new Date(date).getTime());
+        date.setDate(date.getDate() + 1);
+    }
+    for(let daten in dates){
+        await Campground.findByIdAndUpdate(bnbId, {$pull:{unavailableDates: daten}})
+    }
+
+    const book = await booking.findByIdAndDelete(id);
+    const redirecturl = '/hotel/yourBookings'
+    res.redirect(redirecturl);
+}))
+
 module.exports = router;
