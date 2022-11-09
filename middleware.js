@@ -1,6 +1,6 @@
-const { campgroundSchema, reviewSchema } = require('./Schema.js')
+const { bnbSchema, reviewSchema } = require('./Schema.js')
 const ExpressError = require("./Utility/ExpressError");
-const Campground = require('./models/campground');
+const bnb = require('./models/bnb');
 const Review = require('./models/review');
 
 module.exports.isLoggedIN = (req, res, next) => {
@@ -12,8 +12,8 @@ module.exports.isLoggedIN = (req, res, next) => {
     next();
 }
 
-module.exports.validatecampground = (req, res, next) => {
-    const { error } = campgroundSchema.validate(req.body);
+module.exports.validatebnb = (req, res, next) => {
+    const { error } = bnbSchema.validate(req.body);
     if (error) {
         const msg = error.details.map(el => el.message).join(',')
         throw new ExpressError(msg, 400)
@@ -24,10 +24,10 @@ module.exports.validatecampground = (req, res, next) => {
 
 module.exports.isAuthor = async (req, res, next) => {
     const {id} = req.params;
-    const campground = await Campground.findById(id);
-    if(!campground.author.equals(req.user._id)){
+    const bnb = await bnb.findById(id);
+    if(!bnb.author.equals(req.user._id)){
         req.flash('error', 'You do not have permission to perform this operation');
-        return res.redirect(`/campgrounds/${id}`);
+        return res.redirect(`/bnbs/${id}`);
     }
     next();
 }
@@ -37,7 +37,7 @@ module.exports.isReviewAuthor = async (req, res, next) => {
     const review = await Review.findById(reviewId);
     if(!review.author.equals(req.user._id)){
         req.flash('error', 'You do not have permission to perform this operation');
-        return res.redirect(`/campgrounds/${id}`);
+        return res.redirect(`/bnbs/${id}`);
     }
     next();
 }

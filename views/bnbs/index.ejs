@@ -2,24 +2,24 @@
 <div id="cluster-map" ></div>
 <h1>All BnBs</h1>
 
-<% for (let campground of campgrounds){%>
+<% for (let bnb of bnbs){%>
 <div class="card mb-3" >
     <div class="row">
         <div class="col-md-4">
-            <% if(campground.images.length) { %> 
-            <img class="img-fluid" alt="" src="<%=campground.images[0].url%>" style=" height:300px">
+            <% if(bnb.images.length) { %> 
+            <img class="img-fluid" alt="" src="<%=bnb.images[0].url%>" style=" height:300px">
             <% } else { %> 
                 <img class="img-fluid" alt="" src="https://res.cloudinary.com/dvfo4sxo2/image/upload/v1660416333/Yelpcamp/nfcmkzxuqnx5kp6e8wxg.jpg" style=" height: 300px">
                 <% } %> 
         </div>
         <div class="col-md-8">
             <div class="card-body">
-                <h5 class="card-title"><%= campground.title %> </h5>
-                <p class="card-text"><%= campground.description %></p>
+                <h5 class="card-title"><%= bnb.title %> </h5>
+                <p class="card-text"><%= bnb.description %></p>
                 <p class="card-text">
-                    <small class="text-muted"><%= campground.location%></small>
+                    <small class="text-muted"><%= bnb.location%></small>
                 </p>
-                <a class="btn btn-primary" href="/campgrounds/<%=campground._id%>">View <%=campground.title%></a>
+                <a class="btn btn-primary" href="/bnbs/<%=bnb._id%>">View <%=bnb.title%></a>
             </div>
         </div>
     </div>
@@ -28,7 +28,7 @@
 
 <script>
     const mapToken = '<%- process.env.MAPBOX_TOKEN%>';
-    const camp = {features: <%- JSON.stringify(campgrounds) %>};
+    const camp = {features: <%- JSON.stringify(bnbs) %>};
 </script>
 
 <script src="/javascripts/clusters.js"></script>

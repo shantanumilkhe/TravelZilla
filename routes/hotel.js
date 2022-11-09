@@ -5,10 +5,10 @@ const cheerio = require('cheerio');
 const router = express.Router({ mergeParams: true });
 const catchAsync = require("../Utility/catchAsync");
 const hotel = require('../controllers/hotel')
-const Campground = require('../models/campground');
+const Bnb = require('../models/bnb');
 const Booking = require('../models/booking');
 const booking = require('../models/booking');
-const { isLoggedIN, validatecampground, isAuthor } = require('../middleware')
+const { isLoggedIN, validatebnb, isAuthor } = require('../middleware')
 
 router.route('/')
     .get(catchAsync(hotel.index))
@@ -21,7 +21,7 @@ router.post('/checkBooking/:id', catchAsync(async (req, res, next) => {
     const id = req.params.id;
     const checkin = req.body.book.checkin;
     const checkout = req.body.book.checkout;
-    const bnb = await Campground.findById(id)
+    const bnb = await Bnb.findById(id)
     console.log(bnb)
     const forbiddenDates = bnb.unavailableDates
     const start = new Date(checkin);
@@ -46,7 +46,7 @@ router.post('/checkBooking/:id', catchAsync(async (req, res, next) => {
         res.redirect(redirecturl);
     } else {
         req.flash('success', 'BnB not available for Booking for the given dates.')
-        res.redirect(`/campgrounds/${id}`)
+        res.redirect(`/bnbs/${id}`)
     }
 
 }));
@@ -58,13 +58,13 @@ router.get('/booking/:id', isLoggedIN,catchAsync(async (req, res, next) => {
     var yyyy = today.getFullYear();
     today = yyyy+ '-' + mm + '-' +dd ;
     const id = req.params.id;
-    const bnb = Campground.findById(id);
+    const bnb = Bnb.findById(id);
 
-    res.render('campgrounds/booking', { id, today, bnb });
+    res.render('bnbs/booking', { id, today, bnb });
 }));
 
 router.get('/bookingConfirmation', catchAsync(async (req, res, next) => {
-    res.render('campgrounds/confirmation')
+    res.render('bnbs/confirmation')
 }))
 
 router.post('/postBooking/:id', catchAsync(async (req, res, next) => {
@@ -84,7 +84,7 @@ router.post('/postBooking/:id', catchAsync(async (req, res, next) => {
         Address, Mobile
     })
     
-    const bnb = await Campground.findById(bnbid);
+    const bnb = await Bnb.findById(bnbid);
 
     const start = new Date(checkin);
     const end = new Date(checkout);
@@ -118,17 +118,17 @@ router.get( '/yourBookings',isLoggedIN, catchAsync(async (req, res, next) => {
     const bnb = await booking.find({userid: userid}).populate('bnbid')
 
     const bnbs = bnb.reverse();
-    res.render('campgrounds/yourBooking', {bnbs});
+    res.render('bnbs/yourBooking', {bnbs});
 }))
 
 router.get( '/receivedBookings/',isLoggedIN, catchAsync(async (req, res, next) => {
 
     const userid = req.user._id;
-    const hostings = await Campground.find({author: userid}).populate('Bookings')
+    const hostings = await Bnb.find({author: userid}).populate('Bookings')
     const booking = hostings.Bookings
    console.log(hostings);
 const bnbs = [123]
-    res.render('campgrounds/receivedBookings', {hostings});
+    res.render('bnbs/receivedBookings', {hostings});
 }))
 
 
@@ -148,7 +148,7 @@ router.delete('/deleteBooking/:id', catchAsync(async (req, res, next) => {
     }
    
     for(let daten in dates){
-        await Campground.findByIdAndUpdate(bnbId, {$pull:{unavailableDates: parseInt(daten)}})
+        await Bnb.findByIdAndUpdate(bnbId, {$pull:{unavailableDates: parseInt(daten)}})
     }
 
     const book = await booking.findByIdAndDelete(id);

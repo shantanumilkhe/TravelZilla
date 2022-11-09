@@ -18,7 +18,7 @@
                 <p class="card-text">
                     <small class="text-muted"><%= bnb.bnbid.location%></small>
                 </p>
-                <a class="btn btn-primary" href="/campgrounds/<%=bnb._id%>">View <%=bnb.bnbid.title%></a>
+                <a class="btn btn-primary" href="/bnbs/<%=bnb._id%>">View <%=bnb.bnbid.title%></a>
                 <form class="d-inline" action="/hotel/deleteBooking/<%=bnb._id%>?_method=DELETE" method="POST">
                     <button class="btn btn-Danger">Cancel Booking</button>
                 </form>

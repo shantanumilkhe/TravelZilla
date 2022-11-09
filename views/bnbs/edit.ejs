@@ -2,30 +2,30 @@
 
 <% layout('layouts/boilerplate') %> 
 <div class="row">
-    <h1 class="text-center">Edit Campground</h1>
+    <h1 class="text-center">Edit bnb</h1>
     <div class = "col-6 offset-3">
-        <form action="/campgrounds/<%=camp._id%>?_method=PUT" method="post" novalidate class="validated" enctype="multipart/form-data">
+        <form action="/bnbs/<%=camp._id%>?_method=PUT" method="post" novalidate class="validated" enctype="multipart/form-data">
             <div class="mb-3">
                 <label class = "form-label" for="title">Title</label>
-                <input class=" form-control" type="text" id = "title" name="campground[title]" value="<%= camp.title %>" required>
+                <input class=" form-control" type="text" id = "title" name="bnb[title]" value="<%= camp.title %>" required>
             </div>
             <div class="mb-3">
                 <label class = "form-label" for="location">location</label>
-                <input class=" form-control" type="text" id = "location" name="campground[location]" value=" <%=camp.location%>" required>
+                <input class=" form-control" type="text" id = "location" name="bnb[location]" value=" <%=camp.location%>" required>
             </div>
            
             <div class="mb-3">
-                <label class="form-label" for="price">Campground Price</label>
+                <label class="form-label" for="price">bnb Price</label>
                 <div class="input-group">
                     <span class="input-group-text" id="price-label">$</span>
                     <input type="text" class="form-control" id="price" placeholder="0.00" aria-label="price"
-                        aria-describedby="price-label" name="campground[price]" value=" <%=camp.price%>"      required>
+                        aria-describedby="price-label" name="bnb[price]" value=" <%=camp.price%>"      required>
                 </div>
             </div>
 
             <div class="mb-3">
                 <label class="form-label" for="description">Description</label>
-                <textarea class="form-control" type="text" id="description" name="campground[description]" required><%= camp.description %> </textarea>
+                <textarea class="form-control" type="text" id="description" name="bnb[description]" required><%= camp.description %> </textarea>
             </div>
             
             <div class="mb-3">
@@ -49,11 +49,11 @@
             </div>
 
             <div class="mb-3">
-                <button class="btn btn-success">Update Campground</button>
+                <button class="btn btn-success">Update bnb</button>
             </div>
         </form>
     
-        <a href="/campgrounds"><button type="button" class="btn btn-danger">Cancel</button></a>
+        <a href="/bnbs"><button type="button" class="btn btn-danger">Cancel</button></a>
        
     </div>
 </div>

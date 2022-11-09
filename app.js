@@ -17,7 +17,7 @@ const User = require('./models/user')
 // const dbUrl= process.env.DB_URL
 const MongoDBStore = require('connect-mongo');
 
-const campgrounds = require('./routes/campgrounds');
+const bnbs = require('./routes/bnbs');
 const reviews = require('./routes/reviews');
 const users = require('./routes/users');
 const hotel = require('./routes/hotel');
@@ -95,8 +95,8 @@ app.use((req, res, next) => {
 
 
 
-app.use('/campgrounds', campgrounds)
-app.use('/campgrounds/:id/reviews', reviews)
+app.use('/bnbs', bnbs)
+app.use('/bnbs/:id/reviews', reviews)
 app.use('/', users)
 app.use('/hotel',hotel)
 

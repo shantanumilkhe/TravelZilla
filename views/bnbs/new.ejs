@@ -2,17 +2,17 @@
 <div class="row">
     <h1 class="text-center">Host BnB</h1>
     <div class = "col-6 offset-3">
-        <form action="/campgrounds" method="post" novalidate class="validated" enctype="multipart/form-data">
+        <form action="/bnbs" method="post" novalidate class="validated" enctype="multipart/form-data">
             <div class="mb-3">
                 <label class = "form-label" for="title">Title</label>
-                <input class=" form-control" type="text" id = "title" name="campground[title]" required>
+                <input class=" form-control" type="text" id = "title" name="bnb[title]" required>
                 <div class="valid-feedback">
                     looks good
                 </div>
             </div>
             <div class="mb-3">
                 <label class = "form-label" for="location">location</label>
-                <input class=" form-control" type="text" id = "location" name="campground[location]" required>
+                <input class=" form-control" type="text" id = "location" name="bnb[location]" required>
                 <div class="valid-feedback">
                     looks good
                 </div>
@@ -21,17 +21,17 @@
             
             <!-- <div class="mb-3">
                 <label class="form-label" for="image">Image Url</label>
-                <input class="form-control" type="text" id="image" name="campground[image]" required>
+                <input class="form-control" type="text" id="image" name="bnb[image]" required>
                 <div class="valid-feedback">
                     looks good
                 </div>
             </div> -->
             <div class="mb-3">
-                <label class="form-label" for="price">Campground Price</label>
+                <label class="form-label" for="price">bnb Price</label>
                 <div class="input-group">
                     <span class="input-group-text" id="price-label">$</span>
                     <input type="text" class="form-control" id="price" placeholder="0.00" aria-label="price"
-                        aria-describedby="price-label" name="campground[price]" required>
+                        aria-describedby="price-label" name="bnb[price]" required>
                 </div>
                 <div class="valid-feedback">
                     looks good
@@ -40,7 +40,7 @@
 
             <div class="mb-3">
                 <label class="form-label" for="description">Description</label>
-                <textarea class="form-control" type="text" id="description" name="campground[description]" required></textarea>
+                <textarea class="form-control" type="text" id="description" name="bnb[description]" required></textarea>
                 <div class="valid-feedback">
                     looks good
                 </div>
@@ -61,7 +61,7 @@
             </div>
         </form>
     
-        <a href="/campgrounds"><button type="button" class="btn btn-danger">Cancel</button></a>
+        <a href="/bnbs"><button type="button" class="btn btn-danger">Cancel</button></a>
        
     </div>
 </div>

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Campground = require('./campground');
+const bnb = require('./bnb');
 const User = require('./user');
 const Schema = mongoose.Schema;
 
@@ -10,7 +10,7 @@ const bookingSchema = new Schema({
    },
    bnbid: {
     type: Schema.Types.ObjectId,
-    ref: 'Campground',
+    ref: 'Bnb',
    },
    BookingName: String,
    checkin: Date,

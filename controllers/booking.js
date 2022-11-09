@@ -1,4 +1,4 @@
-const Campground = require('../models/campground');
+const bnb = require('../models/bnb');
 const Review = require('../models/review')
 
 
