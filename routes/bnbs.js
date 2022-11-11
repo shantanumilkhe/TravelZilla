@@ -9,7 +9,7 @@ const upload = multer({storage})
 
 router.route('/')
     .get(  catchAsync(bnbs.index))
-    .post( isLoggedIN,upload.array('image'), validatebnb, catchAsync(bnbs.createForm))
+    .post( isLoggedIN,upload.array('image'), validatebnb, catchAsync(bnbs.createBnB))
     
 
 router.get('/new', isLoggedIN, bnbs.newForm )

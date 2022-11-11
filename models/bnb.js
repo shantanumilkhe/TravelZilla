@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Review = require('./review');
 const Booking = require('./booking');
 const Schema = mongoose.Schema;
-
+const Accomodations = require('./accomodations');
 
 const ImageSchema = new Schema({
     url: String,
@@ -47,7 +47,11 @@ const bnbSchema = new Schema({
             type: Schema.Types.ObjectId,
             ref: 'Booking'
         }
-    ]
+    ], 
+    accommodation:{
+        type: Schema.Types.ObjectId,
+        ref: 'Accomodations'
+    }
     
 }, opts);
 

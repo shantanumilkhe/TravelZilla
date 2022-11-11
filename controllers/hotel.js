@@ -30,31 +30,49 @@ module.exports.index = async (req, res) => {
 }
 
 module.exports.indexv2 = async (req, res) => {
-//     const fetch = require('node-fetch');
+    const fetch = require('node-fetch');
 
-// const url = 'https://tripadvisor16.p.rapidapi.com/api/v1/hotels/searchHotels?geoId=304554&checkIn=2022-10-31&checkOut=2022-11-01&pageNumber=1&currencyCode=INR';
 
-// const options = {
-//   method: 'GET',
-//   headers: {
-//     'X-RapidAPI-Key': '0f948ff13emsh66b8bd5a711742cp1a5099jsnfa4b98f281be',
-//     'X-RapidAPI-Host': 'tripadvisor16.p.rapidapi.com'
-//   }
-// };
-// let hotelsv2 = {};
-// await fetch(url, options)
-// 	.then(res => res.json())
-// 	.then(json => hotelsv2 = json.data)
-// 	.catch(err => console.error('error:' + err));
-let hotelsv2 = {};
-await fs.readFile('file1.json', 'utf8', function readFileCallback(err, data){
-if (err){
-    console.log(err);
-} else {
+}
 
-    hotelsv2 = JSON.parse(data);
-     //now it an object
-    res.render('hotel/indexv2',{hotelsv2});
-}});
-    // res.render('hotel/indexv2',{hotelsv2});
+module.exports.search = async(req,res,next) =>{
+    const search = req.query.location;
+    
+    const fetch = require('node-fetch');
+
+const url = 'https://tripadvisor16.p.rapidapi.com/api/v1/hotels/searchLocation?query='+req.query.location;
+
+const options = {
+  method: 'GET',
+  headers: {
+    'X-RapidAPI-Key': '3c9feac990mshb0f5dbb5fedd75cp1b9986jsn5784eb02628a',
+    'X-RapidAPI-Host': 'tripadvisor16.p.rapidapi.com'
+  }
+};
+
+let searchResults = [];
+
+await fetch(url, options)
+	.then(res => res.json())
+	.then(json => {console.log(json.data);searchResults = json.data})
+	.catch(err => console.error('error:' + err));
+    console.log(searchResults)
+   
+    
+    const urls = 'https://tripadvisor16.p.rapidapi.com/api/v1/hotels/searchHotels?geoId='+geoIds+'&checkIn=2022-11-12&checkOut=2022-11-13&pageNumber=1&currencyCode=INR';
+
+    const optionss = {
+      method: 'GET',
+      headers: {
+        'X-RapidAPI-Key': '3c9feac990mshb0f5dbb5fedd75cp1b9986jsn5784eb02628a',
+    'X-RapidAPI-Host': 'tripadvisor16.p.rapidapi.com'
+      }
+    };
+    let hotelsv2 = {};
+    await fetch(urls, optionss)
+        .then(res => res.json())
+        .then(json => hotelsv2 = json.data)
+        .catch(err => console.error('error:' + err));
+    ;
+        res.render('hotel/indexv2',{hotelsv2});
 }
