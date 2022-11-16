@@ -12,12 +12,14 @@ module.exports.postRegister = async (req, res, next) => {
         req.login(registertedUser, err => {
             if(err) return next(err)
             req.flash('success', 'Welcome to travelzilla');
+        res.status(200)
         res.redirect('/bnbs');
         })
         
     } catch (e) {
         req.flash('error', e.message);
-        res.redirect('/register');
+        res.status(400).send('Incorrect credentials')
+        // res.redirect('/register');
     }
 
 }

@@ -9,7 +9,7 @@ const Booking = require('../models/booking');
 
 module.exports.index = async (req, res) => {
     const bnbs = await Bnb.find({});
-    res.render('bnbs/index', { bnbs });
+    res.status(200).render('bnbs/index', { bnbs });
 }
 
 module.exports.newForm = (req, res) => {
@@ -42,10 +42,9 @@ var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 today = yyyy+ '-' + mm + '-' +dd ;
-console.log(today)
     if (!bnb) {
         req.flash('error', 'bnb not found');
-        return res.redirect('/bnbs');
+        return res.status(400).send('bnb not found');
     }
     
     res.render('bnbs/show', { bnb, today });
