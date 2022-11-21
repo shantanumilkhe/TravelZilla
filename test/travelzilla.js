@@ -50,7 +50,7 @@ describe('Validate Event', () => {
                 .request('http://localhost:3001')
                 .post('/register')
                 .set('content-type', 'application/x-www-form-urlencoded')
-                .send({ username:'testtesttest',email:'testtesttest@gmail.com',password:'12345' })
+                .send({ username:'test81',email:'test81@gmail.com',password:'12345' })
                 .then((res) => {
                     chai.expect(res).to.have.status(200);
                 })
