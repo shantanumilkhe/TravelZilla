@@ -12,7 +12,7 @@ describe('Validate Event', () => {
     describe('Test 1 : BnBs is getting displayed', () => {
         it('It should display BnBs', async () => {
             await chai
-                .request('http://localhost:3001')
+                .request('https://travelzilla4u-io.onrender.com')
                 .get('/bnbs/')
                 .then((res)=> {
                     chai.expect(res).to.have.status(200);
@@ -23,7 +23,7 @@ describe('Validate Event', () => {
     describe('Test 2 : Viewing a incorrect BnB', () => {
         it('It should return status code 400', async () => {
             await chai
-                .request('http://localhost:3001')
+                .request('https://travelzilla4u-io.onrender.com/')
                 .get('/bnbs/' + bnbID)
                 .then((res) => {
                     chai.expect(res).to.have.status(400);
@@ -34,7 +34,7 @@ describe('Validate Event', () => {
     describe('Test 3 : Giving incomplete credentials', () => {
         it('It should return status code 400', async () => {
             await chai
-                .request('http://localhost:3001')
+                .request('https://travelzilla4u-io.onrender.com/')
                 .post('/register')
                 .set('content-type', 'application/x-www-form-urlencoded')
                 .send({ username:'testtest' })
