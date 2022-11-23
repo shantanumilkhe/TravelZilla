@@ -44,7 +44,7 @@ var yyyy = today.getFullYear();
 today = yyyy+ '-' + mm + '-' +dd ;
     if (!bnb) {
         req.flash('error', 'bnb not found');
-        return res.status(400).send('bnb not found');
+        return res.status(500).send('bnb not found');
     }
     
     res.render('bnbs/show', { bnb, today });
