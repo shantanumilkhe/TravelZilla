@@ -23,8 +23,8 @@ describe('Validate Event', () => {
     describe('Test 2 : Viewing a incorrect BnB', () => {
         it('It should return status code 400', async () => {
             await chai
-                .request('https://travelzilla4u-io.onrender.com/')
-                .get('/bnbs/636ba27e36fa9b9069f5888a')
+                .request('https://travelzilla4u-io.onrender.com')
+                .get('/bnbs/+bnbID')
                 .then((res) => {
                     chai.expect(res).to.have.status(400);
                   })
@@ -34,7 +34,7 @@ describe('Validate Event', () => {
     describe('Test 3 : Giving incomplete credentials', () => {
         it('It should return status code 400', async () => {
             await chai
-                .request('https://travelzilla4u-io.onrender.com/')
+                .request('https://travelzilla4u-io.onrender.com')
                 .post('/register')
                 .set('content-type', 'application/x-www-form-urlencoded')
                 .send({ username:'testtest' })
@@ -47,7 +47,7 @@ describe('Validate Event', () => {
     // describe('Test 4 : Giving Complete details for registration', () => {
     //     it('It should register the user', async () => {
     //         await chai
-    //             .request('http://localhost:3001')
+    //             .request('https://travelzilla4u-io.onrender.com')
     //             .post('/register')
     //             .set('content-type', 'application/x-www-form-urlencoded')
     //             .send({ username:'test81',email:'test81@gmail.com',password:'12345' })
