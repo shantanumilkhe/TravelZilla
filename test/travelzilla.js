@@ -24,7 +24,7 @@ describe('Validate Event', () => {
         it('It should return status code 400', async () => {
             await chai
                 .request('https://travelzilla4u-io.onrender.com/')
-                .get('/bnbs/' + bnbID)
+                .get('/bnbs/636ba27e36fa9b9069f5888b')
                 .then((res) => {
                     chai.expect(res).to.have.status(400);
                   })
