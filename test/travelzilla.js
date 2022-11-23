@@ -44,17 +44,17 @@ describe('Validate Event', () => {
         });
     });
 
-    describe('Test 4 : Giving Complete details for registration', () => {
-        it('It should register the user', async () => {
-            await chai
-                .request('http://localhost:3001')
-                .post('/register')
-                .set('content-type', 'application/x-www-form-urlencoded')
-                .send({ username:'test81',email:'test81@gmail.com',password:'12345' })
-                .then((res) => {
-                    chai.expect(res).to.have.status(200);
-                })
-        });
-    });
+    // describe('Test 4 : Giving Complete details for registration', () => {
+    //     it('It should register the user', async () => {
+    //         await chai
+    //             .request('http://localhost:3001')
+    //             .post('/register')
+    //             .set('content-type', 'application/x-www-form-urlencoded')
+    //             .send({ username:'test81',email:'test81@gmail.com',password:'12345' })
+    //             .then((res) => {
+    //                 chai.expect(res).to.have.status(200);
+    //             })
+    //     });
+    // });
 
 });

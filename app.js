@@ -113,9 +113,9 @@ app.use((err, req, res, next) => {
     res.status(statusCode).render('error', { err });
 })
 
-const port = process.env.PORT || 3001
-app.listen(port, () => {
-    // console.log(`Serving on port ${port}`);
-})
+// const port = process.env.PORT || 3001
+// app.listen(port, () => {
+//     // console.log(`Serving on port ${port}`);
+// })
 
 module.exports = app;
