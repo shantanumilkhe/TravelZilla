@@ -3,7 +3,7 @@ let chaiHttp = require('chai-http');
 let app = require('../app');
 let should = chai.should();
 
-let bnbID = '636ba27e36fa9b9069f5888b';
+let bnbID = '636ba27e36fa9b9069f5888a';
 
 chai.use(chaiHttp);
 
@@ -26,7 +26,7 @@ describe('Validate Event', () => {
                 .request('https://travelzilla4u-io.onrender.com')
                 .get('/bnbs/+bnbID')
                 .then((res) => {
-                    chai.expect(res).to.have.status(400);
+                    chai.expect(res).to.have.status(500);
                   })
         });
     });
